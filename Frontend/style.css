@@ -10,8 +10,8 @@ body{
 }
 .bigtext{
     position: absolute;
-    top: 220px;
-    left: 250px;
+    top: 35%;
+    left: 18%;
     color: white;
     font-size: 35px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,8 +20,8 @@ body{
 .text{
     color: #FFB9B1;
     position: absolute;
-    top: 320px; 
-    left: 250px;
+    top: 51%; 
+    left: 18%;
 }
 .trial{
     background-color: #5C54A2;
@@ -29,8 +29,8 @@ body{
     width: 400px;
     border-radius: 10px;
     position: absolute;
-    left: 750px;
-    top: 60px;
+    left: 55%;
+    top: 10%;
     text-align: center;
     padding-top: 15px;
 }
@@ -45,15 +45,15 @@ body{
     width: 400px;
     background-color: white;
     position: absolute;
-    left: 750px; 
-    top: 150px;
+    left: 55%; 
+    top: 25%;
     border-radius: 10px;
 }
 .input{
     height:40px;
     width: 350px;
-    margin-left: 15px;
-    padding-left: 20px;
+    margin-left: 3%;
+    padding-left: 4%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
@@ -63,7 +63,7 @@ body{
     color: white;
     height: 50px;
     width: 350px;
-    margin-left: 25px;
+    margin-left: 6%;
     border-radius: 10px;
 }
 .claim:hover{
@@ -74,4 +74,7 @@ body{
 }
 .tos{
     color:#E0BAB7;
+}
+.tos:hover{
+    cursor: pointer;
 }
