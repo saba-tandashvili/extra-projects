@@ -1,17 +1,24 @@
 body{
     background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .whole{
+    display: flex;
+    justify-content:space-around;
     background-color: #FF7978;
-    height: 550px;
-    width: 1000px;
-    margin: auto;
-    margin-top: 2%;   
+    height: 570px;
+    width: 1000px;   
+    border-radius: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .bigtext{
-    position: absolute;
-    top: 35%;
-    left: 18%;
     color: white;
     font-size: 35px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -19,9 +26,7 @@ body{
 }
 .text{
     color: #FFB9B1;
-    position: absolute;
-    top: 51%; 
-    left: 18%;
+    
 }
 .trial{
     background-color: #5C54A2;
@@ -29,8 +34,8 @@ body{
     width: 400px;
     border-radius: 10px;
     position: absolute;
-    left: 55%;
-    top: 10%;
+    left: 734px;
+    top: 4%;
     text-align: center;
     padding-top: 15px;
 }
@@ -40,13 +45,16 @@ body{
 .bolder{
     font-weight: bold;
 }
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .reg{
     height: 400px;
     width: 400px;
     background-color: white;
-    position: absolute;
-    left: 55%; 
-    top: 25%;
     border-radius: 10px;
 }
 .input{
