@@ -1,0 +1,180 @@
+
+body {
+    width: 1440px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 300px 0px;
+    padding-left: 40px;
+    background-color: white;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+div.join p {
+    color: hsl(218, 22%, 67%);
+}
+
+div.join h1, h3 {
+    margin-bottom: 0px;
+}
+
+div.join p {
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 300px 0px;
+}
+
+.container div {
+    width: 431px;
+    color: hsl(204, 43%, 93%);
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.subscription {
+    width: 380px;
+    height: 250px;
+    display: inherit;
+    flex-direction: column;
+    background-color: hsl(179, 62%, 43%);
+    padding-left: 40px;
+}
+
+.subscription p {
+    margin-top: 0px;
+    align-items: left;
+}
+
+.subscription h2 {
+    margin-top: 30px;
+}
+
+.price-subscription {
+    display: flex;
+    text-align: left;
+    height: 50px;
+}
+
+#price {
+    font-size: 2.1em;
+    margin-right: 20px;
+    margin-top: 0px;
+    font-weight: 700;
+    color: white;
+}
+
+.price-subscription p {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inherit;
+    justify-content: center;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    padding: 10px 0px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 0px grey;
+    cursor: pointer;
+    border: solid 1px #5CB874;
+}
+
+button:hover {
+    background-color: hsl(218, 22%, 67%);
+    color: hsl(71, 73%, 54%);
+    box-shadow: 0px 7px 20px 0px hsl(71, 73%, 54%);
+
+}
+
+.why-us {
+    width: 375px;
+    background-color: #4abebd;
+    padding-left: 40px;
+}
+
+.why-us h2 {
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+    }
+
+    .join {
+        margin: 50px 0px 0px;
+        width: 320px;
+        padding: 0px 20px 0px;
+    }
+
+    .container {
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+
+    .container div {
+       width: 320px;
+        padding: 0px 20px 0px;
+    }
+
+    .subscription {
+        height: 230px;
+    }
+
+    button {
+        margin-right: 35px;
+    }
+
+    .why-us {
+       padding: 0px 22px 0px 20px;
+       margin-bottom: 20px;
+    }
+
+    .attribution {
+        font-size: 11px;
+        margin: 5%;
+        color: hsl(228, 45%, 44%);
+    }
+
+}
